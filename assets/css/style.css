@@ -120,6 +120,16 @@ input {
 
 /*===============LAYOUT==================*/
 
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid{
+    display: grid;
+}
+
 /*===============REUSABLE CSS CLASSES========================*/
 
 
@@ -188,6 +198,11 @@ input {
     left: 0;
     right: 0;
     margin: auto;
+    text-align: center;
+}
+
+.social__share {
+    font-size: 1.5rem;
 }
 
 /*Active Link*/
@@ -208,10 +223,29 @@ input {
     margin: auto;
 }
 /*==============MAIN======================*/
+.main{
+    margin-left: 100px;
+}
 
 
 /*==========Home Section============*/
+.home{
+    background: url('../img/home-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
 
+.home__container{
+    position: relative;
+    height: 100%;
+    align-items: center;
+} 
+
+
+.home__img{
+    display: none;
+}
 
 /*=============Buttons==============*/
 
