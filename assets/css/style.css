@@ -475,3 +475,22 @@ input {
 .timeline__item:hover .circle__dot{
     background-color: var(--body-color);
 }
+
+.timeline__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.timeline__text{
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.timeline__date{
+    display: flex;
+    align-items: center;
+    column-gap: .4rem;
+    font-size: var(--small-font-size);
+    color: var(--skin-color);
+}
